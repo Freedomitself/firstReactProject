@@ -1,0 +1,44 @@
+.main{
+    margin: 2rem 4rem;
+    display: flex;
+    gap: 4rem;
+}
+.left-m{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.insightsHead :nth-child(1){
+    color: red;
+}
+.insightsHead{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 450;
+}
+.article{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+.authorbox{
+    display: flex;
+    gap: 1rem;
+}
+.authorbox > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.authorbox > img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.right-m > img{
+    width: 35rem;
+    height: 30rem;
+}
